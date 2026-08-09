@@ -16,6 +16,48 @@ meg Home Assistantban.
   oszlopos rácsban, mobilon pedig egy vagy két oszlopban jelennek meg a
   poszterek.
 
+## A kártya funkciói
+ 
+A kártya három szekcióban jeleníti meg a premiereket – "Mozis premierek
+(ezen és a jövő héten)", "Streaming premierek (ezen és a jövő héten)", és
+"Még a mozikban (Elmúlt 3 hét)" –, minden filmhez
+poszterrel.
+ 
+- **🎬 Előzetes-jelző**: ha egy filmhez van elérhető YouTube-előzetes, a
+  poszter jobb felső sarkában megjelenik egy kis csapó (klipbord) ikon
+  – így első pillantásra látszik, melyik filmhez nézhető meg trailer.
+  Ez a jelző kattintható is, ami elvisz a trailer YouTube oldalára.
+- **Streaming szolgáltató badge**: a streamingre kerülő filmek
+  poszterének alján egy színes badge jelzi, hogy melyik szolgáltatónál
+  (Netflix, Disney+, Max, Prime Video stb.) érhető el a film – így nem
+  kell rákattintani ahhoz, hogy kiderüljön, hol lehet megnézni.
+- **Kattintásra bővített panel**: bármelyik poszterre kattintva (vagy
+  billentyűzettel, Tab + Enter/Space-szel is elérhető) egy részletes
+  nézet nyílik meg, benne:
+  - a film teljes szinopszisával,
+  - játékidővel, műfajjal, rendezővel és szereplőgárdával,
+  - és – ha van hozzá előzetes – a **YouTube-trailer közvetlenül
+    beágyazva**, lejátszóként a panelen belül, tehát nem kell külön
+    lapra váltani a megnézéséhez.
+  - A panel alján gyorsgombok is vannak: az előzetes megnyitása
+    YouTube-on, illetve a film adatlapjának megnyitása magán a
+    mozipremierek.hu oldalon.
+- A kártya **reszponzív**: a fentiek asztali gépen és mobilon is
+  ugyanúgy elérhetők, csak a rács oszlopainak száma igazodik a
+  képernyő szélességéhez.
+  
+## Képernyőképek
+ 
+*(Ide kerülnek majd a kártya képernyőképei – a rács nézet és a
+kibővített részletes panel is.)*
+ 
+<!--
+Példa a beillesztésre, ha a képeket pl. a repóban egy `docs/` mappában
+tárolod:
+![Rács nézet](docs/screenshot-grid.png)
+![Részletes panel az előzetessel](docs/screenshot-detail.png)
+-->
+
 ## Telepítés
 
 1. Másold a `scripts/mozipremierek_scraper.py` fájlt a Home Assistant
