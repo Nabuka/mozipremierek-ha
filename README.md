@@ -10,7 +10,7 @@ meg Home Assistantban.
   egyes filmek adatlapját (párhuzamosan), és `/config/www/mozipremierek.json`
   fájlba menti.
 - `www/mozipremierek-card.js` – egyedi Lovelace kártya (`mozipremierek-card`),
-  ami a fenti JSON-t jeleníti meg posztereas rácsban, kattintható részletes
+  ami a fenti JSON-t jeleníti meg poszteres rácsban, kattintható részletes
   nézettel (előzetes, szereplők, szinopszis). A kártya reszponzív, tehát
   automatikusan igazodik a képernyő szélességéhez – asztali gépen több
   oszlopos rácsban, mobilon pedig egy vagy két oszlopban jelennek meg a
@@ -32,7 +32,7 @@ meg Home Assistantban.
    szabadon állíthatja be úgy, ahogy neki kényelmes. Egy dolgot viszont
    érdemes szem előtt tartani: legyünk tisztelettel a mozipremierek.hu
    üzemeltetője felé, és ne terheljük feleslegesen az oldalt sűrű
-   (pl. félóránkénti) lekérésekkel – napi egy-két frissítés bőven elég,
+   (pl. félóránkénti) lekérésekkel – heti egy-két frissítés bőven elég,
    hiszen a premierdátumok nem változnak óránként.
 
    ```yaml
@@ -44,7 +44,7 @@ meg Home Assistantban.
          at: 04:00:00
          weekday:
            - mon
-           - thu
+           - fri
            - sun
      conditions: []
      actions:
@@ -83,7 +83,7 @@ meg Home Assistantban.
    `shell_command.update_mozi_premierek` szolgáltatást, hogy legyen
    JSON, mielőtt a kártya betöltődne. Ezt kétféleképpen teheted meg:
    - **Fejlesztői eszközök** (az újabb Home Assistant verziókban
-     már **Eszközök** néven fut) → **Szolgáltatások** menüpont alatt
+     már **Eszközök** néven fut) → **Műveletek** menüpont alatt
      kiválasztod a `shell_command.update_mozi_premierek` szolgáltatást,
      és lefuttatod.
    - Vagy ha valaki nem szeretne a fejlesztői eszközökkel/szolgáltatásokkal
@@ -100,19 +100,19 @@ adataira épül, amit az oldal üzemeltetője **teljesen ingyenesen**,
 kiváló minőségben biztosít mindenki számára. Ha hasznosnak találod ezt
 az integrációt, kérlek látogasd meg magát az oldalt is, és ha teheted,
 támogasd az üzemeltetőt – az oldalon elérhető [Patreon](https://www.patreon.com/cw/mozipremierek/membership)
-oldalon keresztül, vagy PayPal adományozási lehetőséggel. Egy ilyen
+oldalon keresztül, vagy PayPal adományozási lehetőséggel, amit a weboldal alján találsz meg. Egy ilyen
 szolgáltatás fenntartása munkával és költséggel jár, és megérdemli a
 támogatást.
 
 ## Disclaimer
 
-Ez a projekt egy amatőr, hobbi célú integráció, semmilyen hivatalos
+Ez a projekt egy amatőr, hobbi célú projekt, semmilyen hivatalos
 kapcsolatban nem áll a mozipremierek.hu weboldallal vagy annak
 üzemeltetőjével. A scraper a mozipremierek.hu nyilvánosan elérhető
 HTML-jét elemzi (nincs hivatalos API), ezért ha az oldal struktúrája
 megváltozik, vagy az üzemeltető bármilyen okból ellehetetleníti a
 scraper használatát, a script működése egyik pillanatról a másikra
-megszűnhet – ezért ezért felelősséget nem tudok vállalni. Igyekszem
+megszűnhet – ezért felelősséget nem tudok vállalni. Igyekszem
 frissíteni a kódot, ha az oldal struktúrájában változás történik, de
 ez nem garantált.
 
