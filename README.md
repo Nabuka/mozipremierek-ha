@@ -47,16 +47,10 @@ poszterrel.
   képernyő szélességéhez.
   
 ## Képernyőképek
- 
-*(Ide kerülnek majd a kártya képernyőképei – a rács nézet és a
-kibővített részletes panel is.)*
- 
-<!--
-Példa a beillesztésre, ha a képeket pl. a repóban egy `docs/` mappában
-tárolod:
-![Rács nézet](docs/screenshot-grid.png)
-![Részletes panel az előzetessel](docs/screenshot-detail.png)
--->
+
+![Mozis premierek kártyák](screenshots/mozipremierek-ha-screenshot1.jpg)
+![Streaming film kártyák](screenshots/mozipremierek-ha-screenshot2.jpg)
+![Részletes panel az előzetessel](screenshots/mozipremierek-ha-screenshot3.jpg)
 
 ## Telepítés
 
